@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Jimil Thakor">
+        <meta name="description" content="A website for Khulud:)">
+
+        <title>Khulud's Kitchen</title>
+
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    
+</head>
+
+<body>
+    
+    <header>
+
+        <h1>
+            Hello Khulud!
+        </h1>
+        <p>
+            I am making this trial website just for you:)
+        </p>
+
+<strong>INDEX</strong>
+
+    <nav aria-label="Primary navigation">
+
+        <ul>
+            <li><a href="#html">Learn html.</a></li>
+            <li><a href="#vacation">Plan for Vacation.</a></li>
+            <li><a href="#contact">Contect me.</a></li>
+        </ul>
+
+    </nav>
+
+    </header>
+
+<hr>
+
+    <main>
+
+        <article id="html">
+
+        <h2>
+            Lets learn HTML!
+        </h2>
+        <p>
+            I am noting everything down in word file too.
+        </p>
+
+        <h3>
+            My daily schedule.
+        </h3>
+        <p>
+            Let me tell you how...
+        </p>
+
+        <ol>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my scheduale.</li>
+            <li>...I use resources from <abbr title="Mozilla dev net"> <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">MDN</a></abbr>.</li>
+        </ol>
+
+    </article>
+
+<hr> 
+
+    <article id="vacation">
+
+        <h2>
+            I am also planning a vacation.
+        </h2>
+        <p>
+            I need a break from my work and spend <em>some time with my family</em>.
+        </p>
+        <p>
+            I live in <abbr title="Thunder Bay">TB</abbr> so I want to visit a beach.
+        </p>
+
+<hr>
+
+    <section>
+
+        <h3>Places I'd like to visit.</h3>
+        <p>I have heard good things about BC.</p>
+        <p>Places list:</p>
+
+        <ul> 
+            <li> Vancour </li>
+            <li> Surrey </li>
+            <li> Burnaby </li>
+        </ul>
+
+        <address>20 Lake st. TB. ON.</address>
+
+    </section>
+
+<hr>
+
+    <section>
+
+        <h3>Places I should avoid.</h3>
+        <p> <strong>Haram places.</strong> </p>
+
+        <dl>
+            <dt> Casino. </dt> 
+                <dd> Gambling is Haram. </dd>
+            <dt> Clubs. </dt>
+                <dd> Music and dancing are Haram. </dd>
+            <dt> Bar. </dt> 
+                <dd> Alcohol is Haram. </dd>
+        </dl>
+
+    </section>
+
+<br>
+    <aside>
+        <table>
+            <caption>My daily schedule.</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td>
+                        <time datetime="08:00">8AM</time>-<time datetime="11:00">11AM</time>
+                    </td>
+                    <td>Wrtie code.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Noon</th>
+                    <td>
+                        <time datetime="11:00">11AM</time>-<time datetime="12:00">12PM</time>
+                    </td>
+                    <td>Eat Lunch.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <td>
+                        <time datetime="12:00">11PM</time>-<time datetime="17:00">5PM</time>
+                    </td>
+                    <td>Study for other courses.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td rowspan="2">Other time.</td>
+                    <td>Free time.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Whole week.</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </aside>
+    <table>
+        <tr>
+          <th scope="col">Column 1</th>
+          <th scope="col">Column 2</th>
+          <th scope="col">Column 3</th>
+        </tr>
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+        </tr>
+      </table>
+      
+    
+    </article>
+
+    </main>
+<hr>
+<aside>
+    <details>
+        <summary>
+            What is <mark> khulud's cat </mark> name?
+        </summary>
+        <p>Yummy</p>
+    </details>
+</aside>
+<hr>
+    <article id="contact">
+        <h2>Contact me if u want me!</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal Info.</legend>
+        <p> <label for="firstname">First Name</label>
+            <input type="text" name="FirstName" id="firstname" placeholder="Jane" autocomplete="on" required autofocus>
+        </p>
+        <p> <label for="lastname">Last Name</label>
+            <input type="text" name="LastName" id="lastname" placeholder="Doe" autocomplete="on" required>
+        </p>
+        <p> <label for="password">Password</label>
+            <input type="password" name="Password" id="password" placeholder="Doe" autocomplete="on" required>
+        </p>
+        <p> <label for="phone">Phone</label>
+            <input type="tel" name="Phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-{0-9}{4}]" required>
+        </p>
+        <p> <label for="decade">Favourite Decade</label>
+            <input type="number" name="Favourite Number" id="decade" min="1950" max="2025" step="10" value="2001">
+        </p>
+
+        <p>
+            <label for="coffee">Favourite Coffee
+            </label>
+            <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="coffee">
+                <option value="regularcoffee">Regular Coffee</option> 
+                <option value="icecoffee" selected>Ice Coffee</option>
+                </optgroup>
+                <optgroup label="americano">
+                <option value="latte">Latte</option>
+                <option value="capuino">Capucino</option>
+                </optgroup>
+            </select>
+        </p>
+
+       <!--  <p>
+            <label for="coffee">Favourite Coffee</label>
+            <input type="text" name="coffee" id="coffee" list="coffee-list">
+            <datalist id="coffee-list">
+                <option value="regularcoffee">
+                <option value="latte">
+                <option value="espresso">
+                <option value="americano">
+            </datalist>
+        </p> -->
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>What is ur fav food.</legend>
+        <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other">Other</label>
+    </fieldset>
+    
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">reset</button>
+
+        </form>
+    </article>
+
+<hr>
+
+    <footer>
+
+        <p> &lt;&lt; &copy; <a href="about.html">www.Khulud's Kitchen.com</a> &gt;&gt; </p>
+        <p> <a href="#">Back to Top</a> </p>
+
+    </footer>
+
+</body>
+
+</html>
